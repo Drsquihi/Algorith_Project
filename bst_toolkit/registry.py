@@ -74,6 +74,8 @@ class HyperparamRegistry:
         for score in nodes_to_delete:
             self._bst.delete(score)
 
+        self._history = [(score, params) for score, params in self._history if score >= threshold]
+
         return len(nodes_to_delete)
 
     def all_trials(self) -> List[TrialNode]:
