@@ -39,3 +39,5 @@ data/*.zip
 data/*.tar.gz
 test_rebuild.py
 test_registry.py
+data/*.data
+data/data_banknote_authentication.txt
