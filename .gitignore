@@ -37,3 +37,7 @@ htmlcov/
 # Data — keep CSVs, ignore archives
 data/*.zip
 data/*.tar.gz
+test_rebuild.py
+test_registry.py
+data/*.data
+data/data_banknote_authentication.txt
