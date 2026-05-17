@@ -41,7 +41,7 @@ class BST:
         Apply the correct case (0, 1, or 2 children).
         Complexity: O(h).
         """
-        score = round(score, 6)
+       
         self.root, deleted = self._delete(self.root, score)
 
         if deleted:
